@@ -93,7 +93,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    stroke-width: 0;
 }
 
 .button a {
