@@ -1,0 +1,160 @@
+@media (max-width: 1160px) {
+    .article {
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 850px) {
+
+    /* first section */
+
+    .header_items_svg {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .hero-text-content {
+        text-align: center;
+        display: block;
+        margin-top: 150px;
+    }
+
+    .hero-text-content p  {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text-content .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* numbers section */
+
+    h4 {
+        font-size: 3em;
+    }
+
+    .big-text {
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    /* articles */
+
+    .article {
+        grid-column: 1/3;
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+      .article_img{
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+}
+
+@media (max-width: 550px) {
+
+    /* first section */
+
+    .hero-section {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .header {
+        width: 100%;
+        background-color: var(--color-dark);
+        margin: 0;
+    }
+
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .hero-text-content p  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+    }
+
+    /* numbers section */
+
+    .main {
+        display: block;
+    }
+
+    .numbers {
+        text-align: center;
+        margin: 100px 0 100px 0;
+    }
+
+    .text-for_numbers {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .num_block {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    /* quote */
+
+    .founder_info {
+        margin: 100px 0 100px 0;
+      }
+
+    .quote {
+        width: 90vw;
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 1.8em;
+        
+      }
+
+      
+    /* servises */
+
+    table h2 {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    /* footer */
+
+    .footer_grid {
+        display: block;
+    }
+
+    .footer {
+        
+        width: 100vw;
+        height: 600px;
+      }
+
+    input {
+        background-color: none;
+        width: 70vw;
+      }
+}
